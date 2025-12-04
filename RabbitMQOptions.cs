@@ -12,9 +12,10 @@ namespace RFRabbitMQ
         public string VirtualHost { get; set; } = "/";
         public SslOption Ssl { get; set; } = new();
 
-        public RabbitMQOptions(IConfiguration configuration)
+        public RabbitMQOptions(IConfiguration? configuration = null)
         {
-            Configure(configuration);
+            if (configuration is not null)
+                Configure(configuration);
         }
 
         public void Configure(IConfiguration configuration)
