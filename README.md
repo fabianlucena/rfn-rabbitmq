@@ -102,7 +102,7 @@ RFRabbitMQ is suitable for:
 ---
 
 ## 🔍 Versioning
-Current version: **1.3.0**
+Current version: **1.3.1**
 
 Dependencies:
 - `RabbitMQ.Client` **7.2.0**
