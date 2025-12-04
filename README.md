@@ -82,25 +82,6 @@ public class MyRpcService : RpcServerBase
 
 ---
 
-## 🖥️ Example: RPC Client
-
-```csharp
-var client = new RpcClient(config);
-string response = await client.CallAsync("Hello world");
-Console.WriteLine(response);
-```
-
----
-
-## 🖥️ RPC Examples
-
-For full examples of server and client implementations, see the projects:
-
-- https://github.com/fabianlucena/rfn-rabbitmq-rpc-app
-- https://github.com/fabianlucena/rfn-rabbitmq-rpc-client
-
----
-
 ## 🏗️ Use in Microservices
 RFRabbitMQ is suitable for:
 - Orchestration patterns
