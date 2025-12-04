@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFrameworks>net10.0;net9.0;net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <PropertyGroup>
-	<PackageId>FabianLucena.RFNRabbitMQ</PackageId>
-	<Version>1.0.0</Version>
+	<PackageId>RFRabbitMQ</PackageId>
+	<Version>1.1.0</Version>
 	<Authors>Fabian Lucena</Authors>
 	<Description>Librería .NET base para implementar servicios RPC sobre RabbitMQ, utilizada por FabianLucena.RFNRabbitMQRPCApp y FabianLucena.RFNRabbitMQRPCClient.</Description>
 	<PackageTags>rpc;rabbitmq;messaging;dotnet;microservices;queue;broker</PackageTags>
