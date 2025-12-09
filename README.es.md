@@ -1,6 +1,7 @@
 # RFRabbitMQ
 
-> 🇪🇸 Español | 🇺🇸 [English Version](./README.md)
+> 🇪🇸 Español | 🇺🇸 [English Version](https://github.com/fabianlucena/rfn-rabbitmq/blob/main/README.md)
+> [Video tutorial](https://www.youtube.com/watch?v=hZRJMVehb9M)
 
 RFRabbitMQ es una librería ligera para .NET diseñada para simplificar la implementación de servicios **RPC (Remote Procedure Call)** sobre **RabbitMQ**.  
 Es utilizada por **FabianLucena.RFNRabbitMQRPCApp** y **FabianLucena.RFNRabbitMQRPCClient**.
@@ -90,7 +91,7 @@ RFRabbitMQ es adecuado para:
 ---
 
 ## 🔍 Versionado
-Versión actual: **1.3.2**
+Versión actual: **1.3.3**
 
 ---
 

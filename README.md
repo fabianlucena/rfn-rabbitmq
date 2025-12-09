@@ -1,6 +1,7 @@
 # RFRabbitMQ
 
-> 🇺🇸 English | 🇪🇸 [Versión en Español](./README.es.md)
+> 🇺🇸 English | 🇪🇸 [Versión en Español](https://github.com/fabianlucena/rfn-rabbitmq/blob/main/README.es.md)
+> [Video tutorial](https://www.youtube.com/watch?v=hrU-upEMlPk)
 
 RFRabbitMQ is a lightweight .NET library designed to simplify the implementation of **RPC (Remote Procedure Call)** services over **RabbitMQ**.  
 It is used by **FabianLucena.RFNRabbitMQRPCApp** and **FabianLucena.RFNRabbitMQRPCClient**.
@@ -66,19 +67,12 @@ var config = builder.Configuration.GetSection("RabbitMQ").Get<RabbitMQConfig>();
 
 ---
 
-## 🖥️ Example: RPC Server
+## 🖥️ RPC Examples
 
-```csharp
-public class MyRpcService : RpcServerBase
-{
-    public MyRpcService(IConfiguration config) : base(config) { }
+For examples of RPC server and client, see the projects:
 
-    protected override Task<string> HandleMessageAsync(string message)
-    {
-        return Task.FromResult($"Processed: {message}");
-    }
-}
-```
+- https://github.com/fabianlucena/rfn-rabbitmq-rpc-app
+- https://github.com/fabianlucena/rfn-rabbitmq-rpc-client
 
 ---
 
@@ -92,7 +86,7 @@ RFRabbitMQ is suitable for:
 ---
 
 ## 🔍 Versioning
-Current version: **1.3.2**
+Current version: **1.3.3**
 
 ---
 
